@@ -20,7 +20,7 @@ class School
   end
 
   def sort
-    self.sort_by(&:grade)
+    self.sort!
     # @roster.each { |name, grade| grade.sort! }
   end
 end
