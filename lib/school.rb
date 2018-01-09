@@ -20,6 +20,6 @@ class School
   end
 
   def sort
-    @roster.each { |name, grade| grade.sort! }
+    @roster.map { |name, grade| grade.sort! }
   end
 end
